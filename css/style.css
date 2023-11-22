@@ -1,0 +1,245 @@
+html{
+  
+ height: 100%;
+ 
+}
+
+ 
+
+body {
+ padding: 20px;
+ background: #fefefe;
+ box-shadow: 16px 0px 52px 0px #0e185033, -2px 0px 4px 0px #454f7e05;
+ display: flex;
+ flex-direction: column;
+ height: auto;
+ background: #faf8f8;
+ width: 320px;
+ height: 100%;
+
+
+
+}
+
+
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+
+
+
+.container {
+ 
+  width: 40px;
+  height: 40px;
+  
+
+  border-radius: 50%;
+  background: rgba(255, 62, 121, 1);
+}
+
+.container__burger {
+  display: inline-block;
+  cursor: pointer;
+  
+  width: 16px;
+  height: 16px;
+  margin-left: -60px;
+  margin-top: 7.4px;
+}
+
+.b1,
+.b2,
+.b3 {
+  
+  width: 15px;
+  height: 2.17px;
+  left: 30px;
+  margin: 5px 0;
+  transition: 0.3s;
+  background: #f8f5f5;
+}
+
+.change .b1 {
+  transform: rotate(45deg);
+  transform-origin: -3px 5px;
+}
+
+.change .b2 {
+  opacity: 0;
+}
+
+.change .b3 {
+  transform: rotate(-45deg);
+  transform-origin: 1px -1px;
+}
+
+.header__logo_grup {
+  width: 97px;
+  height: 51px;
+  
+ 
+  
+}
+
+.header__logo_search {
+  width: 40px;
+  height: 40px;
+  
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list{
+  margin-top: 30px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  justify-content: space-around;
+
+  
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+}
+.nav__link1 {
+  text-decoration: none;
+  color: black;
+  
+  
+}
+
+.nav__link2 {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav__link3 {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav__link4 {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav__link5 {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link6 {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav__link7 {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.nav__link8 {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+ padding-top: 150px;
+  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  
+}
+.contact-logo{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content:flex-start;
+  padding-left: 15px;
+
+}
+
+
+
+.email {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  padding-left: 30px;
+
+}
+
+.tel {
+  font-family: 'Lato';
+font-size: 24px;
+line-height: 32px;
+font-weight: 900;
+letter-spacing: -0.6000000238418579px;
+
+
+
+padding-left: 30px;
+
+  
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  justify-content:flex-start;
+  
+  
+}
+
+.lang__ru {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.lang__en {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.lang__ch {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: black;
+}

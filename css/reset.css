@@ -1,0 +1,65 @@
+/* lato-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  html {
+    box-sizing: border-box
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html, body {
+    margin: 0;
+  }
+
+  body {
+    
+    font-family: sans-serif;
+background: #F8F8F8;
+
+  }
+
+  
+  a {
+    
+    transition: opacity 03s ease;
+  }
+  
+  
+  
+  
+  
+  a:hover {
+    color: rgb(102, 102, 105);
+  transition: color 0.3s ease-in-out;
+  }
+  
+  a:active {
+   
+    color: rgb(92, 29, 29);
+    transition: color 0.3s ease-in-out;
+  }
+ a:focus{
+  color: rgb(226, 46, 43);
+  transition: color 0.3s ease-in-out;
+ }
+  
+
+
